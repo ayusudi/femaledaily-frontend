@@ -1,6 +1,7 @@
 # femaledaily-frontend
 
 **Deploy**
+http://femaledaily.ayusudi.com
 
 ## **Getting Started**
 

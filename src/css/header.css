@@ -1,0 +1,96 @@
+.header {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+    display: flex;
+    height: 13.5vh;
+    width: 100%;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+hr {
+    border: 0.7px #d3d3d3 solid;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 55%;
+    background: #ffffff;
+    width: 100%;
+}
+
+
+.bg-menu {
+    object-fit: contain;
+    margin: 3%;
+    height: 50%
+}
+
+.fd-logo {
+    object-fit: contain;
+    height: 87%
+}
+
+input[type="text"].search,
+input[type="text"].search:focus {
+    display: flex;
+    border: rgb(212, 210, 210) solid 1px;
+    border-radius: 2px;
+    height: 35%;
+    width: 66%;
+    margin: 0 2%;
+    font-size: 12pt;
+    outline-width: 0;
+    padding: 5pt 0pt 5pt 45px;
+    background-image: url("../assets/search.png");
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.left-top{
+    display: flex;
+    height: 100%;
+    width: 85%;
+    align-items: center;
+}
+.login{
+    height: 100%;
+    width: 15%;
+    background-color: #DB284E;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.login-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-caps{
+    color: white;
+    font-weight: 300;
+    font-size: 12pt;
+    margin: 10px;
+}  
+
+.bottom-header{
+    display: flex;
+    justify-content: center;
+}
+
+.catagories{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 12px;
+    font-size: 11pt;
+    font-weight: 700;
+}

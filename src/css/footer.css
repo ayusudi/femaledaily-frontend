@@ -1,0 +1,104 @@
+.footer{
+  top: 3700px
+}
+.list-footer{
+  text-align: start;
+  font-weight: 600;
+}
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style-type: none;
+  }
+
+  .footer-content {
+    padding: 20px 0;
+    box-sizing: border-box;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .list1 {
+    display: flex;
+    flex-flow: row;
+  }
+  .list2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+  
+  .download-app {
+    width: 25%;
+  }
+
+  .download {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b1193a;
+    margin: 0 0 15px;
+  }
+
+  .logologo {
+    width: 75%;
+    display: flex;
+  }
+  .list-footer {
+    margin: 0 0 10px 0;
+    width: 25%;
+  }
+  .list-footer li{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 2.5;
+    color: #000;
+    text-decoration:none
+  }
+  .fdn-logo {
+    margin: 15px 0;
+  }
+  .copyright {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a4a4a;
+    text-align: start;
+  }
+  .social-media {
+    display: flex;
+    flex-flow: row;
+    width: 25%;
+    align-items: center;
+    padding: 0;
+  }
+  .social-media li{
+    margin: 0 20px 0 0;
+  }
+  .taste-footer-store {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+  }
+
+  .darkblue{
+    color: rgb(4, 4, 90) !important;
+  }
+
+  .purple{
+    color:rgb(136, 32, 136)!important;
+  }
+  
+  .red{
+    color: red !important;
+  }
+
+  .blue{
+    color: royalblue;
+  }
